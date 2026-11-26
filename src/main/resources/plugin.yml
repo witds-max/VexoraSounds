@@ -1,0 +1,13 @@
+name: VexoraSounds
+version: ${project.version}
+main: com.vexora.sounds.VexoraSounds
+api-version: "1.21"
+description: Efek suara (hit, kill, killstreak, crafting, hotbar) dan resource pack wajib untuk server Vexora
+commands:
+  vsound:
+    description: Atur VexoraSounds
+    usage: /vsound <toggle|reload>
+permissions:
+  vexorasounds.admin:
+    description: Boleh reload config
+    default: op
